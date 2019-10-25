@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WordRng</string>
+    <string name="play_accueil">Jouer</string>
+    <string name="apropos_accueil">A propos</string>
+    <string name="propose_accueil">Proposer un mot</string>
+    <string name="quit_accueil">Quitter</string>
+    <string name="title_activity_level_choice">LevelChoiceActivity</string>
+    <string name="level">Niveau </string>
+    <string name="next">Passer</string>
+
+</resources>

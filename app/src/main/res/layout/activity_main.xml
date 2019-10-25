@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/logoAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:layout_margin="75dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@id/PlayAccueil"
+        />
+
+    <Button
+        android:id="@+id/PlayAccueil"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bouton_vert"
+        android:text="@string/play_accueil"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoAccueil"
+        android:layout_marginTop="100dp"
+        android:textSize="@dimen/text_size_acceuil"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAProposAccueil"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bouton_vert"
+        android:text="@string/apropos_accueil"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlayAccueil"
+        android:layout_margin="@dimen/margin_button_accueil"
+        android:textSize="@dimen/text_size_acceuil"
+
+        />
+    <Button
+        android:id="@+id/buttonProposerAccueil"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bouton_vert"
+        android:text="@string/propose_accueil"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAProposAccueil"
+        android:layout_margin="@dimen/margin_button_accueil"
+        android:textSize="@dimen/text_size_acceuil"
+
+        />
+
+    <Button
+        android:id="@+id/quitAccueil"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bouton_vert"
+        android:text="@string/quit_accueil"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProposerAccueil"
+        android:layout_margin="@dimen/margin_button_accueil"
+        android:textSize="@dimen/text_size_acceuil"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
